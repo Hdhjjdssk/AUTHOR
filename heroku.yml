@@ -1,0 +1,5 @@
+build:
+  docker:
+    AUTHOR: Dockerfile
+run:
+  AUTHOR: python3 -m main.py
