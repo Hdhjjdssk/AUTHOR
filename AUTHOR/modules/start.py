@@ -8,7 +8,7 @@ START_OP = [
     ],
     [
         Button.url(
-            "ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🧸", "https://t.me/{x.username}?startgroup=true"
+            "ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🧸", "https://t.me/kexx_xd?startgroup=true"
         ),
     ],
     [
