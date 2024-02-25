@@ -1,29 +1,19 @@
-from telethon import __version__, events
-from pyrogram.types import InlineKeyboardButton
+from telethon import __version__, events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_OP = [
     [
-        InlineKeyboardButton(
-            text="ᴀᴜᴛʜᴏʀ 🥀", url="https://t.me/Kexx_XD"
-        ),
-        InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/DEVIL_CHATZ"
+        Button.url("ᴀᴜᴛʜᴏʀ 🥀", "https://t.me/Kexx_XD"),
+        Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/DEVIL_CHATZ"),
+    ],
+    [
+        Button.url(
+            "ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🧸", "https://t.me/{x.username}?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🧸",
-            url="https://t.me/{x.username}?startgroup=true",
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ❄️", url="https://t.me/+dKGCo7oumwYwZDNl"
-        ),
-        InlineKeyboardButton(
-            text="ᴄʜᴀɴɴᴇʟ ☁️", url="https://t.me/+XxS3X3ayLqQ5Njdk"
-        ),
+        Button.url("ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ❄️", "https://t.me/+dKGCo7oumwYwZDNl"),
+        Button.url("ᴄʜᴀɴɴᴇʟ ☁️", "https://t.me/+XxS3X3ayLqQ5Njdk"),
     ],
 ]
 
@@ -44,7 +34,7 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ 🥀{event.sender.first_name}❤️\n\n╔═════════════════╗\n║ ɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​** ║\n"
-        TEXT += f"║═════════════════║\n"       
+        TEXT += f"║═════════════════║\n"
         TEXT += f"║» **ᴅᴇᴠ​ 🫂: [⏤͟͞〲ᴅᴇᴠɪʟ](https://t.me/KANU_XD)** ║\n"
         TEXT += f"║» **ᴅᴇᴠɪʟ ⚙️:** `1.0` ║\n"
         TEXT += f"║» **ᴘʏᴛʜᴏɴ 🐍:** `3.11` ║\n"
