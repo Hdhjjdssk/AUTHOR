@@ -33,12 +33,12 @@ async def start(event):
         AltBot = await event.client.get_me()
         bot_name = AltBot.first_name
         bot_id = AltBot.id
-        TEXT = f"**ʜᴇʏ 🥀{event.sender.first_name}❤️\n\n╔═════════════════╗\n║ ɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​** ║\n"
-        TEXT += f"║═════════════════║\n"
-        TEXT += f"║» **ᴅᴇᴠ​ 🫂: [⏤͟͞〲ᴅᴇᴠɪʟ](https://t.me/KANU_XD)** ║\n"
-        TEXT += f"║» **ᴅᴇᴠɪʟ ⚙️:** `1.0` ║\n"
-        TEXT += f"║» **ᴘʏᴛʜᴏɴ 🐍:** `3.11` ║\n"
-        TEXT += f"║» **ᴛᴇʟᴇᴛʜᴏɴ 🔰:** `{__version__}` ║\n╚═════════════════╝"
+        TEXT = f"**ʜᴇʏ 🥀{event.sender.first_name}❤️\n\n╔═════════════════╗\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n"
+        TEXT += f" ══════════════════\n"
+        TEXT += f"» **ᴅᴇᴠ​ 🫂: [⏤͟͞〲ᴅᴇᴠɪʟ](https://t.me/KANU_XD)**\n"
+        TEXT += f"» **ᴅᴇᴠɪʟ ⚙️:** `1.0` \n"
+        TEXT += f"» **ᴘʏᴛʜᴏɴ 🐍:** `3.11` \n"
+        TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ 🔰:** `{__version__}`\n╚═════════════════╝"
         await event.client.send_file(
             event.chat_id,
             "https://graph.org/file/83433ce8aa8af96f47cb3.jpg",
