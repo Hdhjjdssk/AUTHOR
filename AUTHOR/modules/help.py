@@ -13,15 +13,15 @@ HELP_STRING = f"""
 """
 HELP_BUTTON = [
     [
-      Button.inline("▪ ꜱᴘᴀᴍ ▪", data="spam"),
-      Button.inline("▪ ʀᴀɪᴅ ▪", data="raid")
+      Button.inline("❖ ꜱᴘᴀᴍ ❖", data="spam"),
+      Button.inline("❖ ʀᴀɪᴅ ❖", data="raid")
     ],
     [
-      Button.inline("▪ ᴇxᴛʀᴀꜱ ▪", data="extra"),
-      Button.inline("▪ ᴄʀᴇᴀᴛᴏʀ ▪", data="owner")
+      Button.inline("❖ ᴇxᴛʀᴀꜱ ❖", data="extra"),
+      Button.inline("❖ ᴏᴡɴᴇʀ ❖", data="owner")
     ],
     [
-      Button.url("▪ ꜱᴜᴘᴘᴏʀᴛ ▪", "https://t.me/DEVIL_CHATZ")
+      Button.url("❖ ꜱᴜᴘᴘᴏʀᴛ ❖", "https://t.me/DEVIL_CHATZ")
     ]
   ]
 
@@ -61,30 +61,6 @@ extra_msg = f"""
 👨‍💻 ᴜꜱᴀɢᴇ :
 🔸 {hl}ʀᴇꜱᴛᴀʀᴛ
 🔸 {hl}ʀᴇʙᴏᴏᴛ
-
- ˣ ꜱᴘᴀᴍ ᴛʜᴇ ᴄʜᴀᴛ ᴡɪᴛʜ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ
-
-👨‍💻 ᴜꜱᴀɢᴇ :
-🔸 {hl}ɢᴍ (ᴄᴏᴜɴᴛꜱ)
-🔸 {hl}ɢᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
-🔸 {hl}ɢᴍ -ᴜ
-🔸 {hl}ɢᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
-
- ˣ ꜱᴘᴀᴍ ᴛʜᴇ ᴄʜᴀᴛ ᴡɪᴛʜ ɢᴏᴏᴅ ᴀꜰᴛᴇʀɴᴏᴏɴ
-
-👨‍💻 ᴜꜱᴀɢᴇ :
-🔸 {hl}ɢᴀ (ᴄᴏᴜɴᴛꜱ)
-🔸 {hl}ɢᴀ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
-🔸 {hl}ɢᴀ -ᴜ
-🔸 {hl}ɢᴀ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ
-
- ˣ ꜱᴘᴀᴍ ᴛʜᴇ ᴄʜᴀᴛ ᴡɪᴛʜ ɢᴏᴏᴅ ɴɪɢʜᴛ
-
-👨‍💻 ᴜꜱᴀɢᴇ :
-🔸 {hl}ɢɴ (ᴄᴏᴜɴᴛꜱ)
-🔸 {hl}ɢɴ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
-🔸 {hl}ɢɴ -ᴜ
-🔸 {hl}ɢɴ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
  ˣ ᴛᴏ ᴀᴄᴛɪᴠᴇ ᴇᴄʜᴏ ᴏɴ ᴀɴʏ ᴜꜱᴇʀ
 
@@ -180,6 +156,30 @@ spam_msg = f"""
 👨‍💻 ᴜꜱᴀɢᴇ :
 🔸 {hl}ᴘꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ)
 
+ ˣ ꜱᴘᴀᴍ ᴛʜᴇ ᴄʜᴀᴛ ᴡɪᴛʜ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ
+
+👨‍💻 ᴜꜱᴀɢᴇ :
+🔸 {hl}ɢᴍ (ᴄᴏᴜɴᴛꜱ)
+🔸 {hl}ɢᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
+🔸 {hl}ɢᴍ -ᴜ
+🔸 {hl}ɢᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
+
+ ˣ ꜱᴘᴀᴍ ᴛʜᴇ ᴄʜᴀᴛ ᴡɪᴛʜ ɢᴏᴏᴅ ᴀꜰᴛᴇʀɴᴏᴏɴ
+
+👨‍💻 ᴜꜱᴀɢᴇ :
+🔸 {hl}ɢᴀ (ᴄᴏᴜɴᴛꜱ)
+🔸 {hl}ɢᴀ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
+🔸 {hl}ɢᴀ -ᴜ
+🔸 {hl}ɢᴀ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ
+
+ ˣ ꜱᴘᴀᴍ ᴛʜᴇ ᴄʜᴀᴛ ᴡɪᴛʜ ɢᴏᴏᴅ ɴɪɢʜᴛ
+
+👨‍💻 ᴜꜱᴀɢᴇ :
+🔸 {hl}ɢɴ (ᴄᴏᴜɴᴛꜱ)
+🔸 {hl}ɢɴ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
+🔸 {hl}ɢɴ -ᴜ
+🔸 {hl}ɢɴ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
+
 ** © @KANU_XD**
 """                     
            
@@ -200,15 +200,15 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("▪ ꜱᴘᴀᴍ ▪", data="spam"),
-                Button.inline("▪ ʀᴀɪᴅ ▪", data="raid")
+                Button.inline("❖ ꜱᴘᴀᴍ ❖", data="spam"),
+                Button.inline("❖ ʀᴀɪᴅ ❖", data="raid")
               ],
               [
-                Button.inline("▪ ᴇxᴛʀᴀꜱ ▪", data="extra"),
-                Button.inline("▪ ᴄʀᴇᴀᴛᴏʀ ▪", data="owner")
+                Button.inline("❖ ᴇxᴛʀᴀꜱ ❖", data="extra"),
+                Button.inline("❖ ᴏᴡɴᴇʀ ❖", data="owner")
               ],
               [
-                Button.url("▪ ꜱᴜᴘᴘᴏʀᴛ ▪", "https://t.me/DEVIL_CHATZ")
+                Button.url("❖ ꜱᴜᴘᴘᴏʀᴛ ❖", "https://t.me/DEVIL_CHATZ")
               ]
             ]
           )
